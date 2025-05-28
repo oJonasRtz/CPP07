@@ -131,7 +131,7 @@ int	main(int argc, char **argv)
 	if (argc != 2)
 		return (howToUse());
 
-	const int	len = 4;
+	const int	len = 3;
 	t_map		map[len] =
 	{
 		{"1", &testOrtodox},
